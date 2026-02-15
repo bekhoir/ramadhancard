@@ -130,8 +130,8 @@
     const canvas = document.getElementById("canvas");
     const ctx = canvas.getContext("2d");
 
-    canvas.width = 720;
-    canvas.height = 1280;
+    canvas.width = 720px;
+    canvas.height = 1280px;
 
     const img = new Image();
     img.src = "Ramadhan.png"; // صورة الخلفية
@@ -154,10 +154,10 @@
       ctx.textAlign = "center";
       ctx.direction = "rtl";
       ctx.fillStyle = "#FFD700";
-      ctx.font = "700 52px Cairo";
+      ctx.font = "700 49px Cairo";
 
       // موقع الاسم (يمكن تعديله)
-      ctx.fillText(name, canvas.width / 2, 900);
+      ctx.fillText(name, canvas.width / 2, 1000);
     }
 
     function downloadImage() {
